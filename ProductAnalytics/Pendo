@@ -93,6 +93,21 @@ Product managers are tasked with:
    5. Help users help themselves (Self service)
    6. Collect and use feedback from customers
 
+   How team beyond product leverage analytics
+   1. Engineering : Engineers can use product data to identify quality issues or product bugs, and then prioritize which issue to address
+   2. Marketing teams : They use product usage data to identify power users (highly engaged users) who they can reach out to for 
+                    testimonials, beta testing, case studies. and speaking opportunities 
+   3. Customer Success teams : CSM can use product analytics to identify if and where users from their accounts are getting stuck, 
+                    allowing them to proactively address issues, and stay ahead of customer churn.
+   4. Sales team : Using product data to identify users prime for additional products or upgrades, based on how they are currently engaged 
+                    with the product
+
+   If your company has a freemium product or offers a free trail, Sales tea, can leverage analytics to how these users engage with your free 
+   product or behave during free trial and identify patterns from the users who convert to paying customers - from there sellers know which
+   leads to focus on and spend time nurturing the users who are already qualified based on their usage. These are often referred to as Product 
+   Qualified leads (PQLs). Similar to marketing qualified leads or MQLs, companies can put PQL framework that maps product usage and behavior
+   to the likelihood of making the purchase.
+
 
 ************SetUp free Account***********
 1. Login to https://www.pendo.io/

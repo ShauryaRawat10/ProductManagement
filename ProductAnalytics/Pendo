@@ -1,4 +1,5 @@
-************Definition***************
+################################################################################################################################################
+*****************Definition***************************************
 
  Product Analytics: The act of capturing and analyzing how users interact with digital products by calculating product usage
                     Product usage can be measured by 3 ways:
@@ -12,10 +13,10 @@
                     2. Marketing Analytics
                     3. Business Intelligence data
 
-Product managers are tasked with:
-1. Understanding users and their problems
-2. Recognizing their business current goals
-3. Delivering product work that solves customers problems and drive business impact
+  Product managers are tasked with:
+  1. Understanding users and their problems
+  2. Recognizing their business current goals
+  3. Delivering product work that solves customers problems and drive business impact
 
 
 *****************Why product Analytics matters******************
@@ -78,6 +79,7 @@ Product managers are tasked with:
   2. Instrumented Analytics : Requires tracking code to be installed for almost all interactions in order to collect data for a given
                           feature or product area
 
+
 ***********How analytics fits in product-led strategy**************
    Product-led organizations have 6 characteristics:
    1. Align each function around the product:
@@ -109,7 +111,7 @@ Product managers are tasked with:
    to the likelihood of making the purchase.
 
 
-************Data Literacy Glossary**************
+********************Data Literacy Glossary**********************
    1. Segment : A subset of software user that share comman characteristics, or multiple common characteristics
                 eg: Creating segments based on users company size, industry, location, role or how they use your product
    2. Cohort : Another way to describe a subset of your user base, usually with a time component.
@@ -126,9 +128,19 @@ Product managers are tasked with:
    10. Growth : Measures the net effort of your user acquisition and retention efforts.
 
 
-
-
-************SetUp free Account***********
+*********************SetUp free Account**************************
 1. Login to https://www.pendo.io/
 2. Free Acount sign up
+
+
+################################################################################################################################################
+***************Defining your product Analytics strategy***********
+
+
+
+
+
+
+
+
 

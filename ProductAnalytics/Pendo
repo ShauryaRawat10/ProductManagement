@@ -80,8 +80,14 @@ Product managers are tasked with:
 
 ***********How analytics fits in product-led strategy**************
    Product-led organizations have 6 characteristics:
-   1. Align each function around the product
-   2. Make decisions with data over gut feeling
+   1. Align each function around the product:
+            Product experience becomes the driving force behind every function throughout their business
+            (Sales, Design, Marketing, Support, Engineering, Customer Success)
+   2. Make decisions with data over gut feeling:
+            Making product data a shared language across the organization to make more informed decisions
+            (Remove unused feature from product, re-engage customer account with low usage, reach out to user whose usage indicate
+             they could benefit from other product in the portfolio)
+            In this way their is central source of data that is always up-to-date
    3. Use the product as the marketing channel
    4. Have amazing onboarding
    5. Help users help themselves (Self service)

@@ -1,1 +1,30 @@
+************Definition***************
+
+ Product Analytics: The act of capturing and analyzing how users interact with digital products by calculating product usage
+                    Product usage can be measured by 3 ways:
+                    1. Trends : Graph engagement with certain features or pages and compare it against other parts of the product over time
+                    2. Funnels : Track the levels of drop-off at each step accross specific subset of features and pages in the product
+                    3. Paths : View all the product journeys users take either leading up to or following a specific interaction, plus a measure 
+                               of how common or uncommon the next step being taken is
+
+                    Product Analytics is not:
+                    1. Web Analytics
+                    2. Marketing Analytics
+                    3. Business Intelligence data
+
+Product managers are tasked with:
+1. Understanding users and their problems
+2. Recognizing their business current goals
+3. Delivering product work that solves customers problems and drive business impact
+
+Questions to ask:
+1. How can we make sure users are successful with our products
+2. What's blocking our users from getting value from our products
+3. How can we add value to the product that users are willing to pay for
+4. Are we building products and features that users want or need
+
+
+************SetUp free Account***********
+1. Login to https://www.pendo.io/
+2. Free Acount sign up
 

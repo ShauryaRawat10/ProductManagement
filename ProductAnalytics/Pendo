@@ -109,6 +109,25 @@ Product managers are tasked with:
    to the likelihood of making the purchase.
 
 
+************Data Literacy Glossary**************
+   1. Segment : A subset of software user that share comman characteristics, or multiple common characteristics
+                eg: Creating segments based on users company size, industry, location, role or how they use your product
+   2. Cohort : Another way to describe a subset of your user base, usually with a time component.
+                eg: August cohort of your users are your new users who started using the product in the month of august 
+   3. Behaviral cohorts : same as segments
+   4. Path Analysis : Allows you to visualize what users are doing before or after using a specific page or feature within your application
+   5. Funnel Analysis : Allows you to measure how customer move through a defined series of steps in your application
+                Product teams can use these learnings to make adjustment to the product to keep users engaged in their workflow steps
+   6. Aquisition : In the world of software, refers to the process of gaining new users of your product
+   7. Product Adoption : Measures when users understand your products value and perform certain actions, like engaging with key feature (Stickiness)
+   8. Retention : Measures the percentage of users or customer accounts still using your product after they initially install or start 
+                  using it
+   9. Engagement : Tracks how user interacts with an application at the most granular level
+   10. Growth : Measures the net effort of your user acquisition and retention efforts.
+
+
+
+
 ************SetUp free Account***********
 1. Login to https://www.pendo.io/
 2. Free Acount sign up

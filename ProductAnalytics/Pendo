@@ -17,11 +17,75 @@ Product managers are tasked with:
 2. Recognizing their business current goals
 3. Delivering product work that solves customers problems and drive business impact
 
-Questions to ask:
-1. How can we make sure users are successful with our products
-2. What's blocking our users from getting value from our products
-3. How can we add value to the product that users are willing to pay for
-4. Are we building products and features that users want or need
+
+*****************Why product Analytics matters******************
+     Product analytics is the act of collecting product usage data
+
+     Product managers are tasked with:
+     1. Understanding users and their problems
+     2. Recognizing their business current goal
+     3. Delivering product work that solves customers problems and drive business impact
+
+     Product managers normally - Questions to ask:
+     1. How can we make sure users are successful with our products
+     2. What's blocking our users from getting value from our products
+     3. How can we add value to the product that users are willing to pay for
+     4. Are we building products and features that users want or need
+
+     In the past product managers answered these type of questions by talking to a handful of customers, collecting some internal feedback, 
+     and leaning in their own gut feeling or intuition. 
+     Oftentimes, it was simply the case that the loudest voice won in terms of what theor prioritize or what functionality to build
+     But in order to answer these questions effectively or build products that truely put the customer first, you need data
+     Software users prefer tool which are seemless, intuitive or delightful. Improving product starts with how users are engaging with it
+
+     Product analytics provide foundational layer of data that companies can use to measure and optimize their user experience. 
+     Analytics is truth. What you see in your product usage data is fact.
+
+     Product managers can use quantitative data to inform decision making at every stage. And uncover insights about their users and products
+     that they didnt even know before
+
+
+     How product analytics can impact your business:
+     1. User insights and ROI : What part of the product is being used, how often and by whom. 
+                                Using product analytics to correlate insights with other operational metrics to see how product impacts behavior
+                                and leads to key business results, such as reduction in support tickets, or increased retention
+     2. Growth and experimentation: Unlocks the metrics by which hypotheses are made and meaningful engagement is measured. 
+                                With information like no of monthly active users, retention over time, breadth of feature use readily available
+                                team can observe a challenge or opportunity in the product, develop a plan, deploy the change, measure outcomes,
+                                and iterate with minimum latency or dependencies
+     3. Successful digital transformation: Analyze existing workflows and employee behavior to inform decisions about future app purchases and 
+                                recommended best practices
+
+     Combining quantitative and qualitative data is important.
+     If product Analytics tells you that user move from point A to point B, qualitative data tells you why
+
+
+************Introduction to Product Analytics Software****************
+  Product Analytics software tracks 2 types of data about user interactions:
+  1. Events : Any user actions in the software application
+              Example: Clicks, Slides, Gestures, Play commands, Downloads, Page loads, Text fields
+
+  2. Event Properties: Specific attributes of tracked interactions
+              Example : Device, Software Version, Custom attributes
+
+  Product Analytics have 2 main capabilities:
+  1. Tracking : Both at individual user level and account level (multiple user from single customer account, B2B)
+  2. Reporting : Both at individual user level and account level
+  3. Dashboards : Roll up multiple metrics in single location
+
+  Implementation methods for Product Analytics:
+  1. Codeless Analytics : Automatically collects every feature click, screen, page load inside a product, all without tracking code
+  2. Instrumented Analytics : Requires tracking code to be installed for almost all interactions in order to collect data for a given
+                          feature or product area
+
+***********How analytics fits in product-led strategy**************
+   Product-led organizations have 6 characteristics:
+   1. Align each function around the product
+   2. Make decisions with data over gut feeling
+   3. Use the product as the marketing channel
+   4. Have amazing onboarding
+   5. Help users help themselves (Self service)
+   6. Collect and use feedback from customers
 
 
 ************SetUp free Account***********

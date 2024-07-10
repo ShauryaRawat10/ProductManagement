@@ -1,1 +1,199 @@
+-> What is Product Manager?
+   - Product Management is combination of UX, Technology and business
+   - You are not a manager of anybody
+   - You are a enabler, communication hub, researcher, presenter, responsibile for success of product
+   
+-> Product?
+   - Could be anything
+   
+-> 3 Types of Product Manager?
+   - Internal Product Manager: Building for own company
+   - Business to Consumer Product Manager : Public users, facebook, Instagram
+   - Business to Business Product Manager (SaaS PMs): Oracle or Salesforce interacting with sales people of own company to make profit from partners
+   
+   Stakeholder -> "People who you are building for" or "who have input of what you are building"
+                   eg: Users, Executive, Marketers
+                   
+-> How do you think about the type of product manager you want to be?
+   - Internal Product Manager: 
+     > Great for people starting out in PM
+     > Integrate with other system in own company
+     > Lot of project management
+     > Less Risk on losing money, Small number of users 
+     
+   - Business to Consumer Product Manager : 
+     > Uncertainty, Pressure
+     > Million of users in multiple platforms
+     > Can lose company $$$
+     > Extensive user testing required
+     
+   - Business to Business Product Manager (SaaS PMs): 
+     > Great for people starting out in PM
+     > Small number of users 
+     > Flexible and creative, priorities weighted by $
+     > Tight deadlines
+     
+-> Product vs Project Management:
+   Product Manager are responsible for success of product, (KPI's and metrics). It is upto you and your team to take decision based on the research
+   Project Management are responsible for executing thing on time and budget. There is less experimenting and fixed plans on build
+   
+   * Product managers are responsible for accomplishing a metrics goal through any method of they choose with their team and project managers are responsible for
+     accomplishing a set of project within resource and time constraints
+   
+-> Four major phases of product lifecycle:
+   1. Introduction: 
+      > Product first introduction to the market
+      > Little to No competition, but typically loses money
+   2. Growth (eg: snapshat)
+      > Product has been accepted in the marketplace, little increase in sales
+      > Improvement of product starts, few competition seen
+   3. Maturity (eg: Twitter)
+      > Sales goes on peak, but heavy competition starts
+   4. Decline (eg: Yahoo)
+      > Sales diminished, Deemed old/irrelevant
+
+-> Product Development Process:
+   1. Conceive
+      > Collect User problems / Brainstorm solutions
+      > Most things are still just ideas in people's heads
+   2. Plan
+      > Market Research / Customer Interview
+      > How long it take
+      > Begin to make concrete plans and scope out (look at detail me) the work you think needs to be done
+   3. Develop
+      > features to have in products
+      > Estimations on development
+   4. Iterate
+      > Finish MVP (Minimum Viable product)
+      > User Testing and Iterate
+   5. Launch
+      > Work with Marketing team, PR team, Legal team, sales team for public launch
+   6. Steady State
+      > Collecting metrics on use and buy
+      > Sales people continue to sell, marketing people continue to market
+   7. Maintain or Kill
+      > decision based on ROI of product
+      > Sunsetting and give to users to backup
+      
+ **There is no universal way of knowing exactly which phase a product or company is in, as the phases are more of a concept and not an official declaration. 
+   However, based on data through research you could reach a conclusion that most people would agree with
+   
+   
+-> Lean Product Development:
+   > Product development philosophy that revolves around cutting down all unnecessary work or effort until you absolutely sure you want to do it for your users
+   > Building something in an intelligent way where I am not using the resources until I know I actually have to
+   
+-> Agile:
+   > Applying that lean mindset to software development
+   > Project Management framework for Software development, iterative method to develop software
+   > Group things into small batches and do them in order not to waste resources
+   > eg: develop 3-4 features first, which are most important and realease them, get user feedback 
+   > Agile software development methodologies:
+     1. Scrum
+     2. Kanban
+   
+-> Scrum:
+   1. Sprint planning meeting: 
+      > Start with Product backlog by prioritizing on tasks that need to be done
+   2. Using Tickets:
+      > develop in 2-3 week sprint
+   3. Standup meetings
+      > What team is working on now, what they worked on, and what they will be working on  
+   4. Retrospective meeting:
+      > What went well
+      > What did'nt go well
+      > What question team has
+      
+-> Kanban:
+   > Kanban does not use Sprints
+   > No Sprint backlog, but has product backlog
+   > Does not precribe any particular meeting types 
+   > It says that only a certain number of items can be in progress at a time. Focus is not on estimations
+   > Kanban board has columns to reflect on state of item: "TO-DO", "In-PROGRESS", "DONE"
+   > Customer Service team usually use kanban style of working.
+   
+-> Waterfall:
+   > In waterfall framework, we take all the features of a product and develop them all at same time
+   > Doing things in watrefall way is riskier, much harder to adopt to market feedback after you have already built everything
+   > Operating Systems that can not operate only with a few features
+   > Engine control Systems in cars, Building Skyscrapers
+   
+   
+-> Where Ideas Come from as a PM
+   Product Managers are not responsible for coming up with ideas. Ideas come from everywhere
+   1. Employees: 
+   2. Metrics: Problem and inefficiencies found in users using product
+   3. Users: User feedback from forums, social media
+   4. Clients: In case of BTB product manager
+   
+   Internal PM : Stakeholders (Employees, coworkers you work with)
+   Business to consumer PM: Users, Metrics, Coworkers
+   Business to business PM: Employees, Clients
+   
+-> Quiz:
+   A user comes to you and says, "I need these ten features to be built into the product..Now". What should be your response?
+   - Maybe we should take a step back and prioritize
+   
+-> Getting the real user needs:
+   - Understand the core pain points of what users ask you to do
+   - Understand the actual problem. Find a solution to a problem instead of fitting the solution to a problem
+   - Ask why 3 times
+   - eg: Twitter is a business model which tries to show what is really popular right now. What are people around the world talking about. 
+         Retweets show that you really like the tweet and endorse it. So, having button "No Retweets" will not be the best idea because it will have a real
+         consecuences such as drop of popular tweets by 40%.
+         
+-> Users vs customers
+   Customers are the individuals who pay for your product or make the decision to adopt it for use by themselves and others. Sometimes a person is both
+   the user and the customer, but there is potential for them to be two different things depending on which type of product is in question.
+         
+         
+         
+         
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+      
+      
+      
+      
+      
+      
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+
+
+
+
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
 

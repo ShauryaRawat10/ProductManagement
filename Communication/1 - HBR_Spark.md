@@ -23,6 +23,69 @@
   - Saying NO: Don't say Directly, Frame it nicely
   - Architecting: Jot down all ideas, and figure out sensible order, and then judge the message yourself
 
+- Managing conflict at work:
+  - 4 types
+    - Relationship: Not everything is relationship conflict
+    - Task: Disagree on work
+    - Process: Disagree over how
+    - Status: Disagree on who is in-charge
+  - Options to resolve
+    - Do Nothing
+    - Address Indirectly
+      - Your job as manager is to give them chance to handle it themselves, and then give them the tools and env 
+    - Directly address
+    - Exit the relationship
+  - Deal with someone unreasonable
+    - Asking advice?
+  - What if you unknowingly tripped some trigger for some colleague and they are now shouting at you?
+    - Take a moment / or a break (Deep breathing, Sleep)
+  - Venting?
+    - Meaning: Sharing or letting negative emotions out
+    - Not nurture the emotions, but letting them go
+  - What are some of the benefits of constructive conflict?
+    - Diversity of opinions
+    - if you and I get into a fight, and we’re able to resolve it, we’re going to have a much more resilient relationship
+
+- 7 Key Tensions Every Leader Must Balance
+  - Emerging leadership Styles
+    - Power sharer
+    - Visionary
+    - Adapter
+    - Accelerator: Sacrifice details over speed
+    - Analyst
+    - Prospector: Hyper aware
+    - Listener
+  - Traditional Leadership Styles
+    - Power Holder
+    - Tacticion: Short term focus
+    - Constant: Non adaptable
+    - Perfectionist: detail oriented
+    - Intuitionist: Gut feeling
+    - Minor: Understand specific tech
+    - Teller: Gives Direction
+  - 7 Tensions every leader must balance
+
+- Your Scarcest Resource
+  - Time
+    - Time is money
+    - Communication overload
+    - Free up atleast 20% of hours
+      - Set clear priorities: Minimum Agenda
+      - Use Zero-based time budgeting
+        - Treat time as fixed resource
+    - Require Business case for projects and executive sponser
+    - Simplify the organization
+    - Delegate authority for time investments
+    - Standardize decision rights
+    - Establish meeting descipline
+    - Provide feedback
+
+
+
+
+
+
+
 
 
 

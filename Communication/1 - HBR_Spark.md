@@ -112,7 +112,21 @@
   - Aware of your own emotional intent
   - Once you know how you want to behave now, you start monitoring your right emotion and showing up in a way you want to show up. 
 
+- How to speak up in meetings
+  - How can I say something in a way to make it 100% honest
+  - Asking Open ended questions
+  - What if I get lost and I dont have framework
+    - Say in one sentence
+    - Practice before actual moment
+  - Facts -> Story -> Ask
 
+
+- 5 common writing mistakes
+  - Effect (Noun) vs Affect (Verb)
+  - Between you and me
+  - Compliment vs Complement
+  - Farther vs Further
+  - Lay vs Lie
 
 
 

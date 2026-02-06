@@ -80,6 +80,50 @@
     - Establish meeting descipline
     - Provide feedback
 
+- Getting Project Management Right
+  - 4 key things:
+    - Planning
+    - Build Up
+    - Implementation
+    - Close Out
+  - Around 2/3rd of world projects fail
+  - Project Charter
+    - Contains everything:
+    - A project charter is a concise, formal document that officially authorizes a project's existence, outlining its purpose, scope, objectives, and key participants. It acts as a foundational "contract" and roadmap, granting the project manager authority to apply resources while ensuring stakeholder alignment on goals, risks, and deliverables
+  - How to Plan better
+    - Whiteboarding for 2 or more days
+    - Agile: Every 2 weeks doing planning
+  - How do you communicate
+    - Asking the person how they want the communication to be
+  - How do you reach out to person who is not responding on any channel
+    - Reach out on phone
+
+   
+- Wise Leadership
+  - Be idealistic pragmatic
+  - They introduce the concept of "phronesis," or practical wisdom, which involves making the right decisions in context and pursuing excellence for the common good. To cultivate these capabilities, they suggest fostering close human interactions and sharing real-life experiences within organizations
+  - Emphasis on liberal arts
+    - Liberal arts background helps in sharing your life experiences (challenges) and to really network with your peers
+
+
+- Take control of your non verbal communication
+  - Unconcious mind handles non verbal communication, so handling that is very difficult
+  - Become aware of your non verbal behavior
+  - Aware of your own emotional intent
+  - Once you know how you want to behave now, you start monitoring your right emotion and showing up in a way you want to show up. 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

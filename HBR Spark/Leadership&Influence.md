@@ -51,6 +51,9 @@
 - Who needs to be added to meeting
   - Every person that you add, makes meeting more complicated
 - You could coach on new skills and provide new actions and strategies and approches, but it will not be sustainable because operating system that supports those new actions and new skills werent in place, so, they would revert back to old behavior quite quickly
+
+
+#### Hidden Blockers that are Limiting your leadership potential
 - 
 
 

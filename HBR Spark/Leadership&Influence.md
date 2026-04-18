@@ -53,8 +53,45 @@
 - You could coach on new skills and provide new actions and strategies and approches, but it will not be sustainable because operating system that supports those new actions and new skills werent in place, so, they would revert back to old behavior quite quickly
 
 
-#### Hidden Blockers that are Limiting your leadership potential
-- 
+#### Can you lead without Authority
+- Create environment where everyone can thrive, whether or not you have formal authority
+- Leader with informal authrity move to formal authority
+
+#### How to establish your personal brand
+- Nobody knows it better than you at your presentation
+- Learning your things fast, advocate for yourself
+- Think exactly who is in room, what matters to them
+- Explicit with the goals we want to achieve
+- Being clear with time to reach that goal
+- Present same way in other meeting and presentation
+
+
+#### Power
+- Two types
+  - Personalized Power
+    - To feel good in life
+  - Social Power (Nelson Madalla)
+    - At work, people's attention, attaction
+    - Reputation and followers
+    - Power over the environment
+  - Bases of power
+    - Innate: Gender based
+    - Primary: Work to earn, education, training, knowledge, allies
+    - Secondary: Hierarchy, central player in network
+  - What is first step
+    - Observe who are movers and shakers
+      - They have context
+      - Experience
+      - Allies
+      - And rate yourself
+    - What are those secondary things that could be valued in this organization that you could work on
+    - For leaders who get developed
+      - Reputation
+      - Network Centrality
+   - Using power benevolently can help your gain status
+
+
+#### How to Sell Your Ideas up the Chain of Command
 
 
 

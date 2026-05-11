@@ -104,7 +104,18 @@
   - Emerging instuments
     - Cryptocurrencuies (bitcoin), and Central bank digital currencies (CBDCs)
 
-
+#### Payment channels
+- POS (Point of Sale)
+  - In-store terminals where customers physically interact to complete purchases
+  - Supports card types (credit, debit) through swipe, chip or even contactless methods
+- ATM
+  - Automated Teller machines for cash withdrawals, deposits, and other banking transactions
+- E-commerce
+  - Online websites and digital storefronts where transactions occur remotely over internet
+- In-app
+  - Payments occur directly within mobile app, often integrated with digital wallets
+- QR/Contactless
+  - Quick response (QR) code payments or Near field communication (NFC) tap-and-go methods
 
 
 

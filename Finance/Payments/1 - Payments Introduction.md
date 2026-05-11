@@ -118,6 +118,68 @@
   - Quick response (QR) code payments or Near field communication (NFC) tap-and-go methods
 
 
+***
+### ISO8583 Basics: The language of payments
+- ISO8583 standard is the backbone of card payment systems, enbaling seamless and secure communication between financial institutions. It defines the structure and content of messages exchanged during transactions
+- Standardization
+  - ISo-International organization for standardization create a universal format for financial trsnaction messages
+- Interoperability
+  - Ensure different payment networks and devices can speak to each other, from POS terminal to bank mainframes
+- Global reach
+  - Adopted worldwide, facilitating cross-border payments and growth of electronic commerce
+
+##### The core message structure of ISO8583
+- MTI (Message type indicator):
+  - Defines the purpose of message
+- Bitmap
+  - Indicates which data elements are present in message (a "map" of whats included)
+  - Each bit represent specific DEs
+- Data Elements (DEs)
+  - Actual transaction information, like card numbers or amounts
+
+##### Understanding MTI Basics (4 digit code)
+- MTI tells the recieving system what kind of message is being sent
+- Examples of MTI Code
+  - 0200: Financial transaction request (authorization request)
+  - 0210: Response to 0200 request (eg: approval)
+  - 0400: Financial transaction reversal request
+  - 0410: Response to 0400 reversal request
+  - 0500: Settlement request
+  - 0510: Response to 0500 settlement request
+
+#### Data Elements
+- Actual fields that carry specific transaction data
+- Examples
+  - DE2: PAN-Primary account number
+  - DE3: transaction processing code
+    - Type of transaction: (eg: purchase, withdrawal, refund and cash advance)
+  - DE4: Transaction amount (precise monetary value)
+  - DE11: System trace audit number (STAN) - a unique trace number (identifier) for message tracking
+  - DE39: Response Code - indicates outcome of transaction (approved - 00, declined codes)
+
+#### Why ISO8583 matters?
+- New standards are available like ISO20022, ISO8583 still remains backbone of global payment processing for several reasons:
+  - Powers billions of card and ATM transactions daily across globe
+  - Highly flexible and adaptable to various transaction types and regions
+  - Serves as universal language ensuring interoperability between banks, merchants and payment networks worldwide
+
+
+### Breaking down sample ISO8583 Message
+- MTI, Bitmap and data elements makes the ISO8583 message complete
+- Approved message
+  - MTI = 0210 (Authorization response)
+  - DE39 = 00 (Approved)
+  - DE4 = $100.00
+- Decline message
+  - MTI = 0210 (Authorization Response)
+  - DE39 = 05 (Do not honor) due to insufficient fund or securoty reasons
+  - DE4 = $100.00 
+
+### Single vs Dual message Systems
+- 
+
+
+
 
 
 

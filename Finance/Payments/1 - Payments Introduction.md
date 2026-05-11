@@ -176,7 +176,16 @@
   - DE4 = $100.00 
 
 ### Single vs Dual message Systems
-- 
+- Single message system
+  - Authorization and settlement of funds occur simultaneously within a single message exchange. Once transaction is approved, funds are immediately moved
+  - Authorization + settlement combined (0200/0210)
+  - This streamlined process ensures rapid fund availability, ideal for simple, real-time operations like cash-withdrawals
+  - Faster but less flexible
+- Dual message system
+  - Separate transaction into 2 distinct phases: Authorization and Settlement
+  - Authorization (0100 -> 0110) happens instantly
+  - Settlement (0500 -> 0510) happens later in batch
+  - Pre-authorization or adjustments before final settlements 
 
 
 

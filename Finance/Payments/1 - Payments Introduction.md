@@ -441,12 +441,66 @@
   - Utilizes unique biological traits like fingerprints and facial recognition or voice for secure access
 
 
+#### Fraud and Risk Management
+- Most prevalent payment fraud schemes:
+  - Card-Not-Present (CNP) Fraud
+    - Occurs when a physical card isn't present, typically in online or phone transactions. Often involves stolen card numbers
+  - Lost/stolen card Fraud
+    - Unauthorized use of physical card that has been lost or stolen. Fraudsters often make small purchases first to test validity
+  - Friendly Fraud (Chargebacks)
+    - When a legitimate cardholder makes a purchase but then disputes the charge with their bank, often claiming it was unauthorized or defective
+- Essential Risk controls for prevention
+  - Velocity Checks:
+    - Monitoring frequency of transactions, attempts or failed logins from single user or IP address to flag unusual spikes
+  - Geo-Location and IP monitoring:
+    - Analyzing geographic location of transactions and IP address to identify inconsistencies or high-risk regions
+  - Device fingerprinting:
+    - Identifying unique characteristics of a user's device (eg: operating system, browser, plugins) to recognize repeat fraudsters
+  - Blacklists and Hot Card lists:
+    - Maintaining lists of known fraudulent accounts, devices or stolen card numbers to immediately decline suspicious transactions
 
 
+#### Leveraging Data Elements in Fraud Detection
+- DE55: EMV Chip Data:
+  - The EMV (Europay, Mastercard, and Visa) chip data block contains cryptograms and other information that validate the authenticity of transaction and help prevent conterfieting
+- DE61: POS Data:
+  - Point-of-sale (POS) data provides details about transaction environment such as terminal type, entry mode (swipe, chip and contactless) and cardholder verification method, which are vital for risk analysis
+- DE39: Response Codes
+  - These codes, returned by issuer, indicate status of authorization request (approved, declines, pick up card). Analyzing patterns in response codes can help detect suspicious behavior or system anomalies
 
 
+#### Regulatory and Compliance Overview
+- What is regulatory complaince?
+  - Regulatory complaince in financial services refers to adherence to laws, guidelines, regulations and specifications relevant to industry. It's a framework designed to protect consumers, maintain market integrity, and prevent financial crime
+  - Backbone of trust: Ensuring every transaction and interaction meets strict legal and ethical standards
+- KYC : Know your customer
+  - Verifies customer identity
+    - Collecting and verifying personal data like names, addresses and date of birth
+  - Prevent identity theft and fraud
+  - Required for all financial institutions
+    - Mandatory requirement globally, forming the first line of defense against illicit financial activities
+  - Customer Due Diligence (CDD)
+    - Ongoing monitoring of customer transactions and behavior to ensure consistency with their profile
+- AML : Anti-money laundering
+  - Detects suspicious transaction patterns
+  - Requires reporting of unusual activity
+    - Financial institutions are legally obligated to report suspicious transactions to relevant authorities, such as FinCEN in USA
+  - Protects financial system integrity
+    - By preventing flow of illicit funds, AML safeguards the stability and reputation of global financial system from criminal exploitation
+  - Combats financial crime
+    - AML regulations directly support fight against terrorism financing, drug trafficking and other serious crimes by cutting off their financial lifelines
+- PSD2 and SCA: European Payment Innovation
+  - PSD2: Payment Services Directive 2
+    - Scope: A revised EU directive regulatory payment services and payment service providers throughout European-Union and European-Economic-Area
+    - Open Banking: Requires banks to open their APIs (Application programming interfaces) to third party providers (TPPs), fostering innovationa and competition
+    - Enhanced Consumer rights: Offers stronger consumer protection, including reduced liability for unauthorized payments
+  - SCA: Strong Customer Authentication
+    - Multi-Factor login: Mandates atleast two independent authentication elements from these three categories for most electronic payments, something you know (eg: password), something you hgave (eg: phone), and something you are (eg: fingerprint)
+    - Increased security: Dramatically reduces fraud in online and point-of-sale transactions
+    - Exemptions: Allows for certain low-risk transactions or recurring payments to be exempt from SCA to improve user experience
 
 
+** HSBC was fined $1.9 billion in 2012 for failing to prevent money laundering
 
 
 

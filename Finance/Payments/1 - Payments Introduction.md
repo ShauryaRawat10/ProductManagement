@@ -383,6 +383,65 @@
     - Merchant receives funds from acquirer, minus various processing fees
 
 
+***
+## The ecosystem: Players and infrastructures
+
+#### Core Players: Processors, Networks and Banks
+- Banks
+  - Bank are fundamental pillars of payment ecosystem, directly interating with both consumers and merchants
+  - Issuer Banks
+    - Provide credit and debit cards to customers, holding their funds and authorizing transaction on their behalf
+  - Acquirer Banks
+    - Contract with merchants to accept card payments, settling the funds into merchant's account
+  - Banks manage vast networks of customer accounts and are responsible for direct movement and security of funds
+- Payment Networks:
+  - Invisible infrastructure that makes global card transactions possible, acting as crucial intermediaries
+  - Primarily 3 things
+    - Setting Rules and Standards
+      - Network defines operating rules, security protocols, and technical standards that all participating banks and processors must follow
+    - Routing Transactions
+      - Core function is to route payment requests and approvals between issuer and acquirer banks in seconds
+    - Managing intercahnge fees
+      - Networks also set Interchange fees, fees paid by acquirer bank to issuer bank for each transaction. These fees compensate issuer for fraud risk and other costs
+- Third party processors: The tech backbone
+  - TPPs are specialized tech companies that provide necessary software and infrastructure for banks and fintechs to participate in payment acosystem without building everything themselves
+  - Run tech on behalf of banks and fintechs
+  - They handle high-volume real time operations including:
+    - Switching: Directing transactions to correct network
+    - Authorization: Getting real-time approval from issuer banks
+    - Fraud checks: Employing sophisticated algo to detect and prevent fradulent activity
+    - Settement and Clearing: Ensuring funds are correctly moved between accounts
+
+
+* Banks are vaults, networks are roads, processors are engines, powers payment ecosystem together
+
+## Security in payments: Protecting every transaction
+
+#### PCI DSS
+- PCI DSS Basics (Payment Card Industry, data security standard)
+  - Global Standard: A global card data security standard crucial for all entities handling cardholders data
+  - Core requirements: Mandates encryption and secure storage of sensitive payment information
+  - Who must comply: Mandatory for banks, merchants and payment processors to protect transaction integrity
+
+#### EMV vs Magstripe cards
+- Magstripe technology:
+  - Static data, making it easy to clone
+  - Vulnerable to skimming fraud
+- EMV Chip technology
+  - Dynamic data, providing enhanced security
+  - Highly resistant to counterfeiting
+  - Includes contactless (NFC) payment capabilities
+
+#### Authentication methods
+- PIN (Personal Identification Number)
+  - Used at point of sale (POS) and ATMs to verify identity
+- OTP (One-Time password)
+  - Delivered via SMS or authenticator apps for single use verification
+- Biometrics
+  - Utilizes unique biological traits like fingerprints and facial recognition or voice for secure access
+
+
+
 
 
 

@@ -268,10 +268,119 @@
 
 
 
+***
+## Exceptions, Disputes and Settlement
+
+#### Failures and Reversals
+- The NO-Response Scenario
+  - 0400 - Reversal Request
+  - 0410 - reversal Response
+- The primary purpose of reversal is to negate a previous transaction, ensuring financial integrity
+- If a transaction appears to fail but funds are held, a reversal releases those funds, preventing customer from being charged twice
+- It safeguard merchants: Protects businesses from accounting errors, chargebacks due to held funds and maintain accurate sales record
+- Customer protection: Shields conumers from erroneous charges, duplicate debits, and ensures their funds are accessible
+
+#### Chargebacks and Disputes: When customers challenge transactions
+- Different than merchant initiated refund
+- Forced Refund:
+  - An issuer-initiated forced refund, triggered after a customer disputes a transaction with their bank or card provider
+- Consumer protection:
+  - Designed as a consumer protection mechanism by card networks, safeguarding buyers from unauthorized or unsatisfactory transactions
+- Impact on Merchants
+  - Directly impacts merchants revenue, operational costs, and can lead to penalties and increased processing fees
+
+#### Chargeback vs Reversal
+- Transaction Reversal
+  - A technical correction to a transaction, often due to an error at point of sale
+  - Typically, immediate and handled directly between the acuirer and merchant (eg: duplicate charge, incorrect amount)
+  - Uses specific ISO8583 Message Type Indicator (MTIs) like 0420/0430
+  - Generally has minimal impact on merchant standing
+- Customer Chargeback
+  - A formal consumer dispute process, initiated by cardholder through their issuing bank
+  - Occurs post-settlement, after funds have been transferred to merchant
+  - Governed by strict card network rules and regulations, requiring documentation and dispute resolution
+  - Can result in financial losses, fees and potential damage to merchant reputation
 
 
+#### Lifecycle of chargeback
+- Cardholder Disputes: Customer contact issuing bank to dispute a transaction, citing specific reason
+- Issuer files Chargeback: Files formal chargeback thorugh card network
+- Acquirer Notifies merchant: Card network forwards chargeback to acuiring bank, which then notifies merchant
+- Merchant responds: Merchant has limited window to accept chargeback or submit compelling evidence to fight it (representment)
+
+#### Common chargeback Reasons
+- Fraud/Unauthorized
+- Goods not received
+- Product Not as described
+- Duplicate processing errors
 
 
+#### Compelling Evidence for merchants
+- Proof of delivery
+  - Tracking number, delivery confirmation, signed receipts, or proof of shipment to cardholder's address
+- Transaction records
+  - detailed transaction logs, receipts, order forms, and terminal logs for in-person sales
+- Customer Communications
+  - Emails, chat logs, phone records, or any correspondence proving customer satisfaction or agreement
+- Fraud prevention data
+  - AVS (Address Verification Service), CVV (Card Verification Value) and 3D Secure (3DS2) match logs for online transaction
+
+#### Critical time window and deadlines
+- Issuing filing window
+  - Issuing bank have 60 to 120 days from transaction date to file a chargeback on behalf of their customer
+- Merchant response period
+  - Merchant are usually given a short window, often between 7 to 45 days to respond to chargeback notification
+- Automatic loss
+  - Missing these strict deadlines for submitting evidence or responding to inquiries often results in an automatic loss of dispute
+
+#### Prevention strategies: Resolution and Win
+- Clear policies
+- Fraud checks
+- Accurate tracking
+- Responsive support
+
+
+## Clearing in Practice: How banks exchange transaction data
+- Clearing is the essential process that happens behind the scenes after a financial transaction is authorized but before the money actually moves. It's how payment networks determine the final financial obligations between banks
+- Exchange of transaction details:
+  - It's all about sharing the specifics of each financial transaction (digital files)
+- Post authorization process
+  - Occurs after a payment is approved, preparing it for settlement
+- Determines financial obligations
+  - Calculates who owes whom, and exactly how much for all transactions
+- Batch processing
+  - transactions are processed in batches over a period, not in real time for efficiency
+
+* Clearing is accounting backbone of payment ecosystem
+
+#### Flow of files: Outgoing and Incoming
+- Outgoing files
+  - From: Acquirer Bank
+  - To: Payment Network (eg: VISA, Mastercard)
+  - Content: Merchant transaction details, purchase amounts, associated fees (eg: interchange, processing fees)
+  - Purpose: Informs network of all transactions initiated by merchants it serves
+- Incoming files
+  - From: Payment Network
+  - To: Issuing Bank
+  - Content: Customer transaction details, amounts to be debited from cardholder accounts, and fees owed to issuer
+  - Purpose: Provides issuer with necessary information to charge customer accounts correctly
+
+
+#### Network Specification: VISA and Mastercard
+- Major payment networks have sophisticated clearing systems to manage the immense volume of transactions and their complexities
+- VISA Clearing
+  - System: VisaNet Clearing
+  - A global, real time processing network that handles authorization, clearing and settlement for VISA products
+  - Facilitates data exchange between acuirers and issuers for every VISA transaction
+- Mastercard Clearing
+  - System: GCMS (Global Clearing Management System)
+  - Processes Mastercard transactions for clearing, ensuring accurate data transfer between participating financial institutions
+  - Manages end-to-end clearing cycle for Mastercard products and services
+- Both system meticulosly manage complex financial components:
+  - Interchange fees: Fees paid by acquirer to issuer for each transaction
+  - Currency Conversion: Handling transactions involving different currencies, calculating rates and associated fees
+  - Clearing ensures all parties in trsnaction chain receives their due funds or are charged appropriately, maintaining integrity of payment ecosystem
+    - Merchant receives funds from acquirer, minus various processing fees
 
 
 

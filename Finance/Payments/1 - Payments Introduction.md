@@ -187,6 +187,85 @@
   - Settlement (0500 -> 0510) happens later in batch
   - Pre-authorization or adjustments before final settlements 
 
+***
+## Cards, Terminals and Transactions
+
+#### Payment terminals and transactions
+- Understanding Point-of-sals (POS) devices
+  - Countertop POS
+    - Traditional card machines fixed at a sales counter, ideal for retail stores and restaurabts with dedicated checkout area
+  - Mobile POS (mPOS)
+    - Portable devices that allow transactions on the go, perfect for food trucks, delivery services, and field sales team, offering flexibilty
+  - SoftPOS
+    - Smartphones or tablets enabled to accept payments via NFC technology, transforming everyday devices into secure payment terminals without additional hardware
+- ATM
+  - Cash-out ATMs
+    - Primarily used for withdrawing money from bank account
+  - Cash-in ATMs
+    - Allow users to deposit cash directly into their bank accounts without needing teller
+  - Full Function ATMs
+    - Advanced machines offering expanded services like bill payments, fund transfer, mobile top-ups, even account opening services
+
+#### Understanding card types
+- Debit cards
+  - Linked directly to bank account, funds are deducted immediately upon transaction. Ideal for managing spending
+- Credit cards
+  - Allow users to borrow funds up to limit for purchases, with repayment due later. Offers flexibility and often rewards programs
+- Prepaid cards
+  - Funds are loaded onto a card in advance, allowing spending only up to loaded amount. Great for budgeting or gifting
+- Contactless cards
+  - Enabled with NFC technology for tap-and-go convenience, allowing swift transactions without physical contact with terminal
+
+#### Common transaction Types
+- Purchases
+  - Most common transaction, where funds are transferred from cardholder to merchant for goods and services
+- Withdrawals
+  - Cash is disbursed from ATM or via a cash-back option at a POS terminal
+- Refunds
+  - Funds are returned to cardholer's account, reversing a previous purchase
+- Reversals
+  - Cancels a pending transaction before it settles, often due to an error or transaction timeout
+- Balance inquiries
+  - A request to check the available balance on an account or card, without any funds movement
+
+#### Unpacking Ddata Elements (DEs) 
+- Two most common types are critical for understanding and processing of payment messages
+  - DE3: Processing code
+    - It is 6-digit field specifying exact type/purpose of transaction being performed
+      - 000000: Purchase
+      - 010000: Cash withdrawal
+      - 200000: refund
+  - DE22: POS Entry mode
+    - It is 3-digit field indicating how card data was captured by terminal
+      - 051: Chip(EMV)
+      - 021: Magnetic Stripe (Swipe)
+      - 071: Contactless (NFC) - Tap
+
+#### Key terms in Payments - BIN, PIN and more
+- BIN : Bank Identification Number
+  - The first six or eight digit of card number. The BIN uniquely identifies the financial institution that issued the card
+  - Crucial for fraud detection and transaction routing
+  - Used by payment processors to direct transactions to correct network
+  - Essential for data analytics, providing insights into cardholder demographics and spending patterns
+- PIN: Personal Identification Number
+  - A confidential numeric password used to authenticate the cardholder for ATM withdrawals or point-of-sale purchases
+    - Primarily used with debit cards, but also for credit cards in certain regions or for cash advances
+    - Provides an added layer of security, verifying legitimate cardholder
+    - Protected by encryption during transmission to prevent unauthorized access
+- Signature transactions
+  - Traditional method of cardholder verification where customer signs a receipt to authorize a transaction.
+    - Relies on matching signature on reciept to signature on back of card
+    - Still used in high value transactions or in enviornments where PIN entry is not feasible
+    - Often complemented by other security measures, such as Address Verification Service (AVS)
+- CVV/CVC
+  - Card Verification Value/Code: 3 or 4 digit security code, usually on back of card, used for card-not-present transactions to prevent fraud
+- PAN
+  - Primary account number, is 16 digit card number. This sensitive data requires strict security protocols like encryption and tokenization
+- Acquirer
+  - Bank or financial institution that processes credit and debit card payments for merchants. It settles the fund into merchant's account
+- Issuer
+  - The financial institution that issues credit and debit cards directly to consumers. It sets terms, conditions, and credit limits for cardholders
+
 
 
 
